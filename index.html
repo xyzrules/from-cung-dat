@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dỗi tớ ít hơn nha</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <section id="screen-1" class="screen is-active" aria-label="Lời xin lỗi">
+        <div class="card">
+          <p class="sticker" aria-hidden="true">😭</p>
+          <h1>tớ hong cố ý làm cậu bực nhưng tớ biết cậu đang dỗi tớ và tớ xin lỗi vì đã làm cậu bực</h1>
+          <button id="continue-button" class="button button--primary" type="button">
+            Sang trang tiếp theo
+          </button>
+        </div>
+      </section>
+
+      <section id="screen-2" class="screen" aria-label="Xin bớt dỗi">
+        <div class="card">
+          <p class="sticker" aria-hidden="true">🐯</p>
+          <h2>🐯 dỗi tớ ít hơn một chút xíu ná</h2>
+          <div class="placeholder-art" aria-label="Vị trí ảnh placeholder">🫶</div>
+          <p id="yes-status" class="status" aria-live="polite"></p>
+          <div class="button-row">
+            <button id="yes-button" class="button button--primary" type="button">Yes</button>
+            <button id="no-button" class="button button--secondary" type="button">No</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="screen-3" class="screen" aria-label="Lời cảm ơn">
+        <div id="celebration" class="celebration-layer" aria-hidden="true"></div>
+        <div class="card">
+          <p class="sticker" aria-hidden="true">🩷🥹</p>
+          <h2>🩷🥹 🦂 cảm ơn cậu đã đỡ dỗi tớ hơn 🥺🩷</h2>
+          <p class="closing-line">i class u so muchhh ♥️♥️♥️</p>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
